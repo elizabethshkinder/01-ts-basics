@@ -5,6 +5,12 @@
 // Типізуй змінну product за допомогою створеного інтерфейсу.
 // Залиш властивості обʼєкта product і їх значення без змін.
 
+interface Product {
+  readonly id: number;
+  title: string;
+  description?: string;
+}
+
 const product = {
   id: 1,
   title: "Tablet",
